@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fund Me App</title>
+    </head>
+    <body>
+        <script src="./index.js" type="module"></script>
+        SUP bro! What's good?
+        <button id="connectButton" onClick="connect()">Connect</button>
+        <br />
+        <label for="fund">ETH Amount</label>
+        <input type="text" placeholder="ETH amount, e.g. 0.1" id="ethAmount" />
+        <button id="fundButton" onClick="fund()">Fund</button>
+        <br />
+        <button id="showBalanceButton">Show Balance</button>
+        <p id="contractBalance"></p>
+        <button id="withdrawButton">withdraw</button>
+        <span>(Only Owner can call this)</span>
+    </body>
+</html>
